@@ -1,13 +1,13 @@
 {% set name = "sos-notebook" %}
-{% set version = "0.22.7" %}
+{% set version = "0.22.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 289e37851d72eff4521c725ac57ed23e7953bc4cf5c9e8e8ec69bedd18b47311
+  url: https://files.pythonhosted.org/packages/0d/bb/21dc8031d64f70cd583be2e2814bfd4ad8a88bef328961c5a10f2ce4e63a/sos-notebook-0.22.6.tar.gz
+  sha256: c1b8afa940029d223a1c8b9a6cee75a1d06b58c3f6ad7763f0facab4f59cb315
 
 build:
   number: 0
